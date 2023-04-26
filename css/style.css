@@ -1,0 +1,129 @@
+*{margin:0;
+    padding:0;
+}
+
+ul{list-style: none;}
+
+.navigation{
+    background-color: #42767f;
+    height: 80px;
+
+   
+}
+.nav_item{
+    display: inline-block;
+    padding: 20px;
+    vertical-align: top;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.nav_link{
+    display: inline-block;
+    
+    padding: 5px;10px;
+    color:#000;
+
+}
+
+/* work section styles */
+.work{
+    background-color: #f2f3f5;
+    padding:80px 0px;
+}
+section{
+    display:block
+}
+
+.maincontainer{
+    max-height: 1160px;
+    margin:0 auto;
+    padding:0 6%;
+    border: 1px solid red;
+
+}
+.project_container{
+    display:flex;
+    flex-grow:1;
+    height:340px;
+    width:100%;
+    margin-bottom:80px;
+    border: 1px solid red;
+
+}
+
+.project_container .project_preview{
+    flex-basis:50%;
+    flex-shrink:0;
+    overflow:hidden;
+    position: relative;
+    border: 1px solid red;
+
+}
+
+.project_container .project_details{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f1f1;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+
+.project_container .project_details .title{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 600;
+
+}
+
+.project_container .project_details .subtitle{
+    color:#646466;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.project_container .project_details .body{
+    color:#646466;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height:21;
+   
+}
+.left_button{
+    align-self: center;
+}
+button{background-color:#94D9DD;
+    border:1px solid #646466;
+color:black;
+font-size: 16px;
+padding: 15px;
+width: 90%;
+position: relative;}
+
+.footer{
+    background-color: #42767f;
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer_link{
+    display: inline-block;
+    vertical-align:middle;
+    justify-content: space-between;
+    
+}
+
+.herosection{
+    font-family: Arial, Helvetica, sans-serif;
+    height:200px;
+    background-color: #f1f1f1;
+    padding-left:60px;
+    padding-top: 40px;
+}
+
